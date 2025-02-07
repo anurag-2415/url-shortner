@@ -64,7 +64,7 @@ url_shortener/
 ### **1️⃣ Clone the Repository**
 
 ```sh
-git clone https://github.com/your-username/url-shortener.git
+git clone https://github.com/anurag-2415/new-portfolio.git
 cd url-shortener
 ```
 
