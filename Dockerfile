@@ -11,8 +11,6 @@ RUN npm install -g serve
 
 COPY . .
 
-# Expose ports
 EXPOSE 3000 5500
 
-# Start both backend and frontend
-CMD sh -c "npm start --prefix backend & npx serve -s frontend -l 5500"
+CMD sh -c "npm start --prefix backend & serve -s frontend -l 5500"
