@@ -7,6 +7,7 @@ COPY backend/package*.json ./backend/
 
 RUN npm install --prefix frontend
 RUN npm install --prefix backend
+RUN npm install -g serve
 
 COPY . .
 
